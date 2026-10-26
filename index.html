@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>My App</title>
+    <style>
+        .download-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <h1>Download Soap Calculator</h1>
     <p>Click the link below to download and install the application.</p>
-    <a href="https://gitlab.com/wgu-gitlab-environment/student-repos/SFaust7/d424-software-engineering-capstone/-/raw/Working_Branch/app/release/app-release.apk?ref_type=heads" download>Download APK</a>
+
+    <a
+      class="download-btn"
+      href="https://gitlab.com/wgu-gitlab-environment/student-repos/SFaust7/d424-software-engineering-capstone/-/raw/Working_Branch/app/release/app-release.apk?ref_type=heads"
+      download="app-release.apk"
+    >
+      Download APK
+    </a>
 </body>
 </html>
